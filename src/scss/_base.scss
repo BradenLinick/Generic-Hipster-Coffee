@@ -28,6 +28,7 @@ html {
 .container h2 {
   text-transform: uppercase;
   font-weight: lighter;
+  font-size: 40px;
 }
 
 .container h1 {
@@ -53,10 +54,6 @@ iframe {
 
 /* Footer */
 
-footer {
-  height: 300px;
-}
-
 footer p {
   color: white;
   font-size: 14px;
@@ -72,4 +69,19 @@ footer p {
   justify-content: space-around;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+/*/ Media Query */
+
+@media only screen and (min-width: 800px) {
+  .jumbotron-fluid {
+      height:200px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  #logo{
+    height: 100%;
+  }
 }
