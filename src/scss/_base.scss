@@ -65,12 +65,12 @@ footer p {
 }
 
 #footeritems {
-  display: flex;
-  justify-content: space-around;
+  /*display: flex;
+  justify-content: space-around; */
+  /*margin: auto;*/
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-
 /*/ Media Query */
 
 @media only screen and (min-width: 800px) {
@@ -85,4 +85,6 @@ footer p {
   #logo{
     height: 100%;
   }
+
+
 }
