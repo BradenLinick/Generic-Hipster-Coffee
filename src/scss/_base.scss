@@ -81,9 +81,6 @@ footer p {
       justify-content: space-between;
       align-items: center;
   }
-
-
-
   #logo{
     height: 100%;
   }
@@ -92,8 +89,13 @@ footer p {
      display: flex;
      flex-direction: row;
      justify-content: space-between;
-
   }
+
+  .IframeHolder{
+    height: 600px;
+  }
+
+
 
 
 }
