@@ -82,8 +82,17 @@ footer p {
       align-items: center;
   }
 
+
+
   #logo{
     height: 100%;
+  }
+
+  #PromoCards{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
   }
 
 
