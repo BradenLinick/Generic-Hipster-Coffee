@@ -46,3 +46,23 @@ h4 {
 #promo p {
   margin: 0;
 }
+
+/* Footer */
+
+footer {
+  height: 300px;
+}
+
+footer p {
+  color: white;
+  font-size: 14px;
+}
+
+#links a {
+  text-decoration: underline;
+}
+
+#footeritems {
+  display: flex;
+  justify-content: space-around;
+}
